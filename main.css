@@ -1,0 +1,68 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+
+}
+body{
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* NAVEGACION */
+#iconos_nav {
+  padding-right: 2px;
+}
+#titulo_nav {
+  font-size: 22px;
+}
+
+/* SECCION PRINCIPAL */
+
+/* espaciado */
+#separacion_arriba {
+  position: relative;
+  z-index: 2;
+  height: 7vh;
+  opacity: 1;
+}
+/* formulario */
+
+#centro_izquierda {
+  height: 86vh;
+  padding: 3%;
+}
+#registro {
+  text-align: center;
+}
+#boton_formulario:hover {
+  background-color: purple;
+}
+
+/* texto al lateral */
+#centro_derecha {
+  padding: 3%;
+}
+#titulo-principal {
+  margin-top: 4%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+#texto_principal {
+  margin-top: 25px;
+  padding: 2%;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 200;
+  color: whitesmoke;
+}
+#boton_saber_mas {
+  align-self: center;
+  height: 60px;
+  border-width: thick;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 100%;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Parcial 1</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- importamos libreria bootstrap (bootswatch) -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/pulse/bootstrap.min.css">
+    <!-- importamos libreria font awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <!-- importamos fuentes desde google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- =============BARRA DE NAVEGACION================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a id="titulo_nav" class="navbar-brand" href="#">Parcial 1</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Empezar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Terminar</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i id="iconos_nav" class="fab fa-github"></i>GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i id="iconos_nav" class="fab fa-twitter"></i>Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- =============SECCION PRINCIPAL================== -->
+    <section id="seccion-1">
+      <div class="imagen_background">
+        <div class="row">
+          <div id="separacion_arriba"class="col-md-12"></div>
+          <div id="centro_izquierda"class="col-md-4">
+            <div id="registro" class="card text-white bg-secondary mb-3" style="width: 90%; border-radius: 15px; margin-left: 15px; opacity: 0.85;">
+              <div class="card-header"><h2>Registro</h2></div>
+              <div class="card-body">
+                <h3 class="card-title">Ingresa tus datos</h3>
+                  <form class="" action="index.html" method="post">
+                    <fieldset>
+                      <div class="form-group">
+                        <label for="name" class="form-label">Ingresa tu nombre</label>
+                        <input type="text" class="form-control mt-1" id="name" aria-describedby="emailHelp" placeholder="Nombre">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label">Ingresa tu email</label>
+                        <input type="email" class="form-control mt-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1" class="form-label">Ingresa Contrasena</label>
+                        <input type="password" class="form-control mt-1" id="exampleInputPassword1" placeholder="Contrasena">
+                      </div>
+                      <div class="form-group" >
+                        <label for="exampleInputPassword-repeat" class="form-label">Repeti Contrasena</label>
+                        <input type="password" class="form-control mt-1" id="exampleInputPassword-repeat" placeholder="Repite Contrasena">
+                      </div>
+                      <div class="d-grid gap-2" style="margin-top: 15px; margin-bottom: 15px">
+                        <button class="btn btn-lg btn-primary" id="boton_formulario" type="button">Registro</button>
+                      </div>
+
+                    </fieldset>
+                    <div class="form-group" >
+                      <p>Recuerda que registrandote aceptas nuestros terminos y condiciones</p>
+                    </div>
+                  </form>
+              </div>
+          </div>
+          <div id="centro_derecha" class="col-md-8">
+
+          </div>
+          <div id="separacion_arriba"class="col-md-12"></div>
+
+          </div>
+          <div id="centro_derecha" class="col-md-8">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 id="titulo-principal">crea tus propios estilos css si quieres <span style="color: purple">aprobar</span></h1>
+                <h2 id="titulo-principal"><span style="color: violet">potencia</span> tus habilidades con el uso de bootstrap</h2>
+                <p id=texto_principal>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="row">
+                  <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <button id="boton_saber_mas"type="button" class="btn btn-outline-secondary">Saber mas</button>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+  </body>
+</html>
